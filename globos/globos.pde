@@ -19,7 +19,16 @@ class Globo
 
   void dibujate()
   {
-      ellipse(x,y,100,100);
+      //cuerpo del globo
+      fill(c);
+      ellipse(x,y,80,110);
+      
+      //nudo del globo
+      triangle(x-8, y+55, x+8, y+55, x, y+68);
+      
+      //cuerda
+      stroke(c);
+      line(x,y+68,x,y+130);
   }
   
 }
