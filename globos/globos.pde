@@ -10,7 +10,7 @@ class Globo
    vy=random(-2,-0.5);
    c = color(random(50,255),random(50,255),random(50,255));
   }
-
+//cambio colaborador 2
   void update()
   {
     y+=vy;
